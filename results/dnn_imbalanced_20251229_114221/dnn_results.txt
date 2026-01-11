@@ -1,0 +1,14 @@
+=== DNN (Imbalanced) ===
+Best Parameters: {'units_1': 448, 'dropout_1': 0.4, 'units_2': 64, 'dropout_2': 0.4, 'units_3': 48, 'dropout_3': 0.2, 'learning_rate': 0.0001}
+AUC: 0.9289
+Accuracy: 0.9272
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      3799
+           1       0.71      0.45      0.55       419
+
+    accuracy                           0.93      4218
+   macro avg       0.83      0.71      0.75      4218
+weighted avg       0.92      0.93      0.92      4218

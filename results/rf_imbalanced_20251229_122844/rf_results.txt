@@ -1,0 +1,26 @@
+=== Random Forest (Imbalanced) ===
+Best Parameters: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+AUC: 0.9715
+MAE: 0.0420
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98      3799
+           1       0.84      0.71      0.77       419
+
+    accuracy                           0.96      4218
+   macro avg       0.91      0.85      0.87      4218
+weighted avg       0.96      0.96      0.96      4218
+
+Feature Importances:
+                    feature  importance
+6            asset_turnover    0.174596
+3         interest_coverage    0.169694
+7            market_to_book    0.122963
+2                debt_ratio    0.114122
+4                       roa    0.101922
+0             current_ratio    0.096051
+8  cash_flow_to_liabilities    0.088017
+1            debt_to_equity    0.084976
+5                       roe    0.047660
