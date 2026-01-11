@@ -1,0 +1,14 @@
+=== LSTM (Imbalanced) ===
+Best Parameters: {'lstm_units_1': 32, 'dropout_1': 0.1, 'lstm_units_2': 96, 'dropout_2': 0.5, 'learning_rate': 0.01}
+AUC: 0.9653
+F1-score: 0.7485
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97      3799
+           1       0.78      0.72      0.75       419
+
+    accuracy                           0.95      4218
+   macro avg       0.87      0.85      0.86      4218
+weighted avg       0.95      0.95      0.95      4218
